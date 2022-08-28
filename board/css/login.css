@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* common ----------------------------------------------------------------------------------------------------- */
+*{padding:0; margin: 0; box-sizing: border-box; color:#333333;text-decoration: none;list-style: none; margin: 0 auto;}
+
+.wrap{position:relative; width: 1200px; height: 100%;}
+
+/*header -----------------------------------------------------------------------------------------------------*/
+#login {width: 1200px; height: 50px; display: flex;}
+#login p {margin-right: 10px; margin-top: 20px;}
+.out {margin: 18px 10px 0px 5px;  padding: 5px;}
+.member {margin-right: 10px; margin-top: 20px; padding: 5px;}
+.in {margin: 20px 10px 0px 5px; padding: 5px;}
+
+header{height: 100px; display: flex; align-items: center;}
+nav{width:1000px; margin: 0 0 0 380px;}
+nav > ul{display: flex;}
+nav ul a{display: block; padding:15px;}
+
+.main {position:relative; width:25%;}
+.main > a {font-size: 22px; text-align: center; color: #ffffff; font-weight: bold; background-color: #344960;}
+.sub{position:absolute; width: 100%; z-index: 998; text-align: center; color: #000000; background-color: #fec411; display: none;}
+.sub > li{font-size: 20px;}
+
+.main:hover > a {color: #000000; background-color: #ffffff;}
+.sub li:hover > a{background-color: #fdfdfd;}
+
+/*로그인-----------------------------------------------------------------------------------------------------*/
+#login_page {display: flex; margin-top: 150px;}
+#login_page form {display: flex;}
+
+#login_page table {text-align: center;}
+#login_page table td {font-size: 20px;}
+form input {padding: 10px; margin: 5px 5px 0px 5px;}
+#btn {padding: 15px 30px 15px 10px; text-align: center;}
+#btn button {padding: 25px; font-size: 25px; cursor: pointer;}
+
+#member {margin-left: 653px; margin-right:418px; margin-bottom: 150px;}
+#member button {font-size: 15px; padding: 8px; width: 100%;}
+/*footer -----------------------------------------------------------------------------------------------------*/
+footer{display: flex; height: 100px; align-items: center; margin-top: 50px;}
+.footerlogo{display: block; width: 200px; height: 100px; font-size: 0px; color:transparent;}
+footer p{width:70%; text-align: center;}
+.sns a img{display: inline-block; width:30px; margin-left: 10px;}
+
+#top {position: fixed; font-size: 30px; font-weight: bold; right: 20px; bottom: 20px; color: #ffffff; background-color: #344960; border-radius: 50px; padding: 0px 12px 5px 12px;}
+#top:hover {cursor: pointer;}
